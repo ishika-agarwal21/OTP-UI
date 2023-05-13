@@ -1,0 +1,87 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 36px;
+  border: 1px solid #000;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-weight: bold;
+  background-color: #f1f0f7;
+  color: #000;
+  
+}
+
+.popup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 40px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  font-size: 26px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.otp-inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  width: 60px;
+  height: 60px;
+  margin: 10px 10px 0 40px;
+  text-align: center;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+.close-button {
+  padding: 10px 20px;
+  margin-top: 60px;
+  align-items: left;
+  margin-right: 450px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  background-color: #c74242;
+  color: #000;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.verify-button {
+  padding: 10px 20px;
+  margin-top: -30px;
+  margin-left: 450px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  background-color: #3a8946;
+  color: #000;
+  border-radius: 4px;
+  cursor: pointer;
+}
